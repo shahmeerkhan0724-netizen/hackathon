@@ -13,7 +13,7 @@ connectDb()
 const PORT = process.env.PORT || 3000
 
 app.get("/", (req, res) => {
-  res.send({message: "Welcome to the server!"})
+  res.send({message: "welcome to the server!"})
 })
 
 app.listen(PORT, () => {
